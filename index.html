@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- HEADER -->
+    <header class="bg-green-600 text-white p-6 text-center shadow-md">
+      <h1 class="text-3xl font-bold">DEVHYTZ</h1>
+      <p class="text-lg">Backend Developer • Making your ideas reality</p>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li> <!--Agregar el nav correspondiente-->
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- SOBRE MI -->
+    <section class="p-8 bg-white">
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">About me</h2>
+      <p class="saludo">
+        I am a backend developer with solid experience in Java and Spring Boot. I specialize in building robust and scalable APIs and integrating them efficiently with frontend applications. My work includes microservices architecture, SQL database management, and system optimization. I’m eager to contribute to real-world projects where I can continue learning, add value to development teams, and help drive meaningful results.</p>
+      </p>
+      <p></p>
+    </section>
+
+     <!-- Skills -->
+    <section class="p-8 bg-gray-100">
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Skills</h2>
+      <div class="flex flex-wrap gap-4">
+        <span class="px-4 py-2 rounded-full bg-orange-400 text-red-800 font-medium">HTML5</span>
+        <span class="px-4 py-2 rounded-full bg-blue-400 text-blue-800 font-medium">CSS</span>
+        <span class="px-4 py-2 rounded-full bg-green-400 text-green-800 font-medium">Tailwind CSS</span>
+        <span class="px-4 py-2 rounded-full bg-yellow-400 text-yellow-800 font-medium">JavaScript</span>
+        <span class="px-4 py-2 rounded-full bg-red-400 text-red-800 font-medium">Java</span>
+        <span class="px-4 py-2 rounded-full bg-cyan-400 text-cyan-800 font-medium">Spring</span>
+        <span class="px-4 py-2 rounded-full bg-purple-400 text-purple-800 font-medium">Git & GitHub</span>
+      </div>
+    </section>
+
+   <section class="p-8 bg-white">
+  <h2 class="text-2xl font-bold mb-8 border-b pb-2">Experience / Featured Projects</h2>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <!-- Proyecto 1 -->
+    <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg transition">
+      <img src="/assets/sportpro.jpeg" alt="SportPro API" class="w-full h-40 object-cover rounded mb-3">
+      <h3 class="text-xl font-semibold">Sports Center Management API</h3>
+      <p class="text-sm text-gray-600">Java · Spring Boot · PostgreSQL · JPA · Javalin</p>
+      <p class="mt-2">REST API for managing sports facilities with full CRUD. 
+        <a href="https://github.com/AleDev7/SportPro---Backend" target="_blank" class="text-blue-500 hover:text-blue-700">Click here</a>
+      </p>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg transition">
+      <img src="/assets/casino.jpeg" alt="Casino System" class="w-full h-40 object-cover rounded mb-3">
+      <h3 class="text-xl font-semibold">Console-Based Casino System</h3>
+      <p class="text-sm text-gray-600">Python · Stacks · Queues · File Handling · MVC</p>
+      <p class="mt-2">Console application simulating a casino system. 
+        <a href="https://github.com/AleDev7/Casino" target="_blank" class="text-blue-500 hover:text-blue-700">Click here</a>
+      </p>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg transition">
+      <img src="/assets/afkmod.jpg" alt="AFK Mod" class="w-full h-40 object-cover rounded mb-3">
+      <h3 class="text-xl font-semibold">AFK Minecraft Mod</h3>
+      <p class="text-sm text-gray-600">Java · ForgeAPI · Threads</p>
+      <p class="mt-2">Avoid anti-AFK system in servers. 
+        <a href="https://github.com/devhytz/Afk-mod" target="_blank" class="text-blue-500 hover:text-blue-700">Click here</a>
+      </p>
+    </div>
+    <!-- Proyecto 4 -->
+    <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg transition">
+      <img src="/assets/follooper.jpg" alt="LooperMod" class="w-full h-40 object-cover rounded mb-3">
+      <h3 class="text-xl font-semibold">LOOPER Minecraft Mod</h3>
+      <p class="text-sm text-gray-600">Java · ForgeAPI · Threads</p>
+      <p class="mt-2">
+        Mod for Hypixel server that automates pet feeding via GUI clicks. Adaptable to different slot patterns per pet. 
+        <a href="https://github.com/devhytz" target="_blank" class="text-red-500 hover:text-red-700">Private</a>
+      </p>
+    </div>
+    <!-- Proyecto 5 -->
+    <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg transition">
+      <img src="/assets/mythpiece.jpeg" alt="MythPiece Mod" class="w-full h-40 object-cover rounded mb-3">
+      <h3 class="text-xl font-semibold">Skill System | MythPiece</h3>
+      <p class="text-sm text-gray-600">Java · ForgeAPI · Threads</p>
+      <p class="mt-2">
+        Custom skill system mod with dynamic animations and 3D model support designed for a One Piece-inspired experience.
+        <a href="https://github.com/devhytz" target="_blank" class="text-red-500 hover:text-red-700">Private</a>
+      </p>
+    </div>
+    <!-- Agrega más proyectos aquí de la misma forma -->
+
+  </div>
+</section>
+
+    <!-- CURRENT LEARNING -->
+    <section class="p-8 bg-white">
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">What I'm Currently Working On</h2>
+      <ul class="list-disc list-inside">
+        <li>Refactoring my code using Clean Code best practices</li>
+        <li>Learning Docker to containerize my applications</li>
+        <li>Exploring MongoDB and the MERN stack</li>
+      </ul>
+    </section>
+
+      <!-- EDUCATION -->
+    <section class="p-8 bg-gray-50">
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Education</h2>
+      <ul class="space-y-3">
+        <li>
+          🎓 <strong>Systems Engineering</strong> - Universidad de Caldas <br />
+          <span class="text-sm text-gray-600">2024 - Present</span>
+        </li>
+        <li>
+          🧾 <strong>Backend Development with Spring Boot</strong> - Udemy <br />
+          <span class="text-sm text-gray-600">2024 - Present</span>
+        </li>
+      </ul>
+    </section>
+
+        <!-- FOOTER -->
+    <footer class="bg-blue-600 text-white py-6 mt-10">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <p class="text-lg font-semibold">Let's build something amazing together!</p>
+        <p class="mt-2">© 2025 Alejandro Rios. All rights reserved.</p>
+        <div class="flex justify-center space-x-6 mt-4 text-white text-xl">
+          <a href="https://github.com/AleDev7" class="hover:text-gray-300 transition" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/alejandro-rios-29a296342/" class="hover:text-gray-300 transition" target="_blank" >LinkedIn</a>
+          <a href="https://www.instagram.com/justalej.nz/" target="_blank" class="hover:text-gray-300 transition">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
